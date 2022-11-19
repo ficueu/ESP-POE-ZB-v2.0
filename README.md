@@ -11,7 +11,6 @@ Features:
 * power connector: 10-57 VDC (abs max 70V - needs to replace capacitor),
 * external connectors: 5xGPIO (3 of them internal pulled up, for SCL, SDA, 1Wire), 3.3V, 5V, GND,
 * internal connectors: SCL, SDA, 3.3V, GND (SCL and SDA shared with external connector; more gpio available without zigbee module),
-* compatible with Kradex Z102 enclosure for din rail,
 * support for RS485/MODBUS (need to add ISL83485 or similar - note: RS485 disable I2C and 1Wire),
 * support for CAN (canbus) (need to add 3V3 CAN transceiver),
 * BUS (input/POE) voltage monitoring,
