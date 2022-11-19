@@ -20,7 +20,7 @@ Features:
 
 ### DO NOT POWER ON MODULE WITHOUT ANTENNAS
 
-Example ESPHome yaml file: https://github.com/ficueu/ESP-POE-ZB-v2.0/blob/main/esp-poe-test1.yaml
+Example ESPHome yaml file: https://github.com/ficueu/ESP-POE-ZB-v2.0/blob/main/esp-poe-zb-v2.yaml
 
 Enclosure STL files: https://github.com/ficueu/ESP-POE-ZB-v2.0/tree/main/enclosure
 
