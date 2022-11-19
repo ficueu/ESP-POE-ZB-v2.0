@@ -125,4 +125,4 @@ Updating ZigBee firmware:
 5. Run cc2538-bsl: "python cc2538-bsl.py -p socket://IP-OF-DEVICE:1234 -evw FILENAME.HEX" eg: "python cc2538-bsl.py -p socket://192.168.0.126:1234 -evw CC1352P2_CC2652P_other_coordinator_20220219.hex"
 6. Wait until firmware was verified successfully.
 
-![alt text](https://github.com/ficueu/ESP-POE-ZB-v1.2/blob/main/images/board-v.2.0.png)
+![alt text](https://github.com/ficueu/ESP-POE-ZB-v2.0/blob/main/images/board-v.2.0.png)
