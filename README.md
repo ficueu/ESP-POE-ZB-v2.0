@@ -1,4 +1,4 @@
-# ESP-POE-ZB-v1.2
+# ESP-POE-ZB-v2.0
 ESP32 POE: ZigBee + BLE gateway
 
 Features:
