@@ -12,6 +12,12 @@ esphome:
     name: "ficueu.esp-poe-zb-v20"
     version: "2.0"
 
+  on_boot:
+    priority: 800.0
+    then:
+      - output.turn_off: zbBSL
+      - output.turn_off: zbRST
+      
 esp32:
   board: esp32dev
   framework:
