@@ -19,7 +19,8 @@ Features:
 
 ### DO NOT POWER ON MODULE WITHOUT ANTENNAS
 
-Example ESPHome yaml file: https://github.com/ficueu/ESP-POE-ZB-v2.0/blob/main/esp-poe-zb-v2.yaml
+Example ESPHome yaml file: https://github.com/ficueu/ESP-POE-ZB-v2.0/blob/main/esp-poe-zb-v20.yaml
+(outdated config yaml: https://github.com/ficueu/ESP-POE-ZB-v2.0/blob/main/esp-poe-zb-v2.yaml)
 
 Enclosure STL files: https://github.com/ficueu/ESP-POE-ZB-v2.0/tree/main/enclosure
 
@@ -68,17 +69,6 @@ canbus:
     rx_pin: GPIO16
     can_id: 1
     bit_rate: 50kbps
-	
-switch:
-  - platform: gpio
-    pin: 32
-    id: zRST_gpio
-    inverted: yes
-    restore_mode: ALWAYS_OFF
-	
-  - platform: gpio
-    pin: 33
-    name: "Zigbee BSL"
 
 status_led:
   pin:
