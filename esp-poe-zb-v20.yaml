@@ -18,7 +18,7 @@ esp32:
     type: arduino
 
 dashboard_import:
-  package_import_url: github://esphome/esphome-project-template/project-template-esp32.yaml@v6
+  package_import_url: github://ficueu/ESP-POE-ZB-v2.0/esp-poe-zb-v20.yaml@main
   import_full_config: false # or true
 
 logger:
