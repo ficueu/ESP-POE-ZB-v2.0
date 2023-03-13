@@ -1,6 +1,6 @@
 substitutions:
   name: esp-poe-zb-v20
-  friendly_name: "ESP32 POE ZigBee Gateway v2.0"
+  friendly_name: "ESP32 PoE ZigBee Gateway v2.0"
 
 esphome:
   name: "${name}"
