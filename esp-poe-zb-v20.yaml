@@ -6,7 +6,7 @@ esphome:
   name: "${name}"
   friendly_name: "${friendly_name}"
 
-  name_add_mac_suffix: true
+  #name_add_mac_suffix: true
 
   project:
     name: "ficueu.esp-poe-zb-v20"
