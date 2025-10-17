@@ -48,7 +48,7 @@ ethernet:
   mdc_pin: GPIO23
   mdio_pin: GPIO18
   clk:
-    mode: CLK_EXT_IN
+    mode: CLK_OUT
     pin: GPIO17
   phy_addr: 1
   power_pin: GPIO12
